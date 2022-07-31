@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="bg">
+      <div class="calculadora">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="display"></div>
+        <div class="buttons">
+          <table>
+            <tbody data-display="display-buttons">
+              <tr>
+                <td data-clear class="operator">C</td>
+                <td data-delete class="operator">DEL</td>
+                <td data-operator class="operator">/</td>
+                <td data-operator class="operator">*</td>
+              </tr>
+              <tr>
+                <td data-number>7</td>
+                <td data-number>8</td>
+                <td data-number>9</td>
+                <td data-operator class="operator">-</td>
+              </tr>
+              <tr>
+                <td data-number>4</td>
+                <td data-number>5</td>
+                <td data-number>6</td>
+                <td data-operator class="operator">+</td>
+              </tr>
+              <tr>
+                <td data-number>1</td>
+                <td data-number>2</td>
+                <td data-number>3</td>
+                <td rowspan="2" data-equals class="operator">=</td>
+              </tr>
+              <tr>
+                <td colspan="2" data-number>0</td>
+                <td data-number>.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer class="rodape">Desenvolvido por Danilo Gomes.</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+  font-family: 'Vollkorn', serif;
+}
+
+body {
+  /* background: linear-gradient(275deg, #8844ee, #b07dfb); */
+  background: black;
+}
+
+.bg {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.calculadora {
+  margin: 50px auto;
+  text-align: center;
+  width: 300px;
+  background: rgb(36, 35, 35);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.calculadora h1 {
+  color: red;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  width: 100%;
+}
+
+.buttons td {
+  color: white;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons td:hover {
+  background: white;
+  color: black;
+}
+
+.display {
+  background: rgb(214, 219, 210);
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  text-align: end;  
+}
+
+
+.previous-operand {
+  background: rgb(214, 219, 210);
+  width: 100%;
+  height: 25px;
+  text-align: right;  
+  font-size: .9em;
+}
+
+.buttons .operator {
+  font-size: 1.3em;
+  background: #8844ee;
+}
+
+.rodape{
+  text-align: center;
+  color: rgb(230, 243, 255);
+}
